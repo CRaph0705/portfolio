@@ -7,26 +7,26 @@
 	<title>Document</title>
 </head>
 <body>
-	<header class="home">
+	<header class="home" id="urlhome">
 		<section class="navbar">
 			<ul>
 				<li>
-					<a>
+					<a href="#urlhome">
 						Home
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#urlworks">
 						Works
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#urlaboutme">
 						About me
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#urlcontact">
 						Contact
 					</a>
 				</li>
@@ -35,22 +35,22 @@
 		<section class="burgermenu">
 			<ul>
 				<li>
-					<a>
+					<a href="#urlhome">
 						Home
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#urlworks">
 						Works
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#urlaboutme">
 						About me
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#urlcontact">
 						Contact
 					</a>
 				</li>
@@ -64,48 +64,54 @@
 			<img src="#" alt="description image de fond">
 		</section>
 		<section class="homebutton"> <!-- à afficher uniquement une fois la homepage dépassée -->
-			<button>"symbole de flèche vers le haut ou maison"</button>
+			<button><a href="#urlhome">"symbole de flèche vers le haut ou maison"</a></button>
 		</section>
 	</header>
-	<div class="works">
+	<div class="works" id="urlworks">
 		<div class="carousel">
 			<section class="project">
-				Projet 1
+				<a href="#urlprojet1">Projet 1</a>
 			</section>
 			<section class="project">
-				Projet 2
+				<a href="#urlprojet2">Projet 2</a>
 			</section>
 			<section class="project">
-				Projet 3
+				<a href="#urlprojet3">Projet 3</a>
 			</section>
 		</div>
 		<div class="galerie">
 			<section class="project">
-				Projet 1
+				<a href="#urlprojet1">Projet 1</a>
 			</section>
 			<section class="project">
-				Projet 2
+				<a href="#urlprojet2">Projet 2</a>
 			</section>
 			<section class="project">
-				Projet 3
+				<a href="#urlprojet3">Projet 3</a>
 			</section>
 		</div>
 	</div>
-	<div class="aboutme">
+	<div class="aboutme" id="urlaboutme">
+		<section>PHOTO</section>
 		<section class="skills">
 			<ul>
 				<li>
-					<div class="skill_title"></div>
+					<div class="skill_title">Logiciel 1</div>
 					<div class="skill_logo"></div>
 					<div class="skill_level"></div>
 				</li>
 				<li>
-					<div class="skill_title"></div>
+					<div class="skill_title">Logiciel 2</div>
 					<div class="skill_logo"></div>
 					<div class="skill_level"></div>
 				</li>
 				<li>
-					<div class="skill_title"></div>
+					<div class="skill_title">Langage 1</div>
+					<div class="skill_logo"></div>
+					<div class="skill_level"></div>
+				</li>
+				<li>
+					<div class="skill_title">Langage 2</div>
 					<div class="skill_logo"></div>
 					<div class="skill_level"></div>
 				</li>
@@ -132,7 +138,7 @@
 			</ul>
 		</section>
 	</div>
-	<div class="contact">
+	<div class="contact" id="urlcontact">
 		<section class="form">
 			<div>Name</div>
 			<div>Mail</div>
