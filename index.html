@@ -5,154 +5,203 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link rel="stylesheet" href="page.css">
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="works.css">
+	<link rel="stylesheet" href="aboutme.css">
+	<link rel="stylesheet" href="contact.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+	
 </head>
 <body>
 	<header class="home" id="urlhome">
-		<section class="navbar">
-			<ul>
-				<li>
-					<a href="#urlhome">
-						Home
-					</a>
-				</li>
-				<li>
-					<a href="#urlworks">
-						Works
-					</a>
-				</li>
-				<li>
-					<a href="#urlaboutme">
-						About me
-					</a>
-				</li>
-				<li>
-					<a href="#urlcontact">
-						Contact
-					</a>
-				</li>
-			</ul>
-		</section>
-		<section class="burgermenu">
-			<ul>
-				<li>
-					<a href="#urlhome">
-						Home
-					</a>
-				</li>
-				<li>
-					<a href="#urlworks">
-						Works
-					</a>
-				</li>
-				<li>
-					<a href="#urlaboutme">
-						About me
-					</a>
-				</li>
-				<li>
-					<a href="#urlcontact">
-						Contact
-					</a>
-				</li>
-			</ul>
-		</section>
+		<nav class="navbar navbar-expand-lg bg-light">
+			<div class="container-fluid d-flex justify-content-between">
+				<div>
+					<a class="navbar-brand" href="#">LOGO STYLE</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+			  		</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="#">About me</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Works
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Project 1</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Project 2</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Project 3</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+			  	</div>
+			</div>
+		  </nav>
 		<section class="hometitle">
 			<h1>Portfolio</h1>
 			<p>Description ?</p>
 		</section>
-		<section class="homeassets">
-			<img src="#" alt="description image de fond">
-		</section>
-		<section class="homebutton"> <!-- à afficher uniquement une fois la homepage dépassée -->
-			<button><a href="#urlhome">"symbole de flèche vers le haut ou maison"</a></button>
-		</section>
-	</header>
-	<div class="works" id="urlworks">
-		<div class="carousel">
-			<section class="project">
-				<a href="#urlprojet1">Projet 1</a>
-			</section>
-			<section class="project">
-				<a href="#urlprojet2">Projet 2</a>
-			</section>
-			<section class="project">
-				<a href="#urlprojet3">Projet 3</a>
-			</section>
-		</div>
-		<div class="galerie">
-			<section class="project">
-				<a href="#urlprojet1">Projet 1</a>
-			</section>
-			<section class="project">
-				<a href="#urlprojet2">Projet 2</a>
-			</section>
-			<section class="project">
-				<a href="#urlprojet3">Projet 3</a>
-			</section>
-		</div>
-	</div>
-	<div class="aboutme" id="urlaboutme">
-		<section>PHOTO</section>
-		<section class="skills">
-			<ul>
-				<li>
-					<div class="skill_title">Logiciel 1</div>
-					<div class="skill_logo"></div>
-					<div class="skill_level"></div>
-				</li>
-				<li>
-					<div class="skill_title">Logiciel 2</div>
-					<div class="skill_logo"></div>
-					<div class="skill_level"></div>
-				</li>
-				<li>
-					<div class="skill_title">Langage 1</div>
-					<div class="skill_logo"></div>
-					<div class="skill_level"></div>
-				</li>
-				<li>
-					<div class="skill_title">Langage 2</div>
-					<div class="skill_logo"></div>
-					<div class="skill_level"></div>
-				</li>
-			</ul>
 
-		</section>
-		<section class="exppro">
-			<div>
+	</header>
+	<div class="parallax">
+		<div class="works" id="urlworks">
+			<h2>Works</h2>
+			<div class="carousel">
+				<section class="project">
+					<a href="#urlprojet1">Projet 1</a>
+				</section>
+				<section class="project">
+					<a href="#urlprojet2">Projet 2</a>
+				</section>
+				<section class="project">
+					<a href="#urlprojet3">Projet 3</a>
+				</section>
+			</div>
+			<div class="galerie">
+				<section class="project">
+					<a href="#urlprojet1">Projet 1</a>
+				</section>
+				<section class="project">
+					<a href="#urlprojet2">Projet 2</a>
+				</section>
+				<section class="project">
+					<a href="#urlprojet3">Projet 3</a>
+				</section>
+			</div>
+		</div>
+		<div class="aboutme" id="urlaboutme">
+			<h2>About Me</h2>
+			<section><p>PHOTO</p></section>
+			<section class="skills">
+				<ul>
+					<li>
+						<div class="skill_title"><p>Logil 1cie</p></div>
+						<div class="skill_logo"></div>
+						<div class="skill_level"></div>
+					</li>
+					<li>
+						<div class="skill_title">Logiciel 2</div>
+						<div class="skill_logo"></div>
+						<div class="skill_level"></div>
+					</li>
+					<li>
+						<div class="skill_title">Langage 1</div>
+						<div class="skill_logo"></div>
+						<div class="skill_level"></div>
+					</li>
+					<li>
+						<div class="skill_title">Langage 2</div>
+						<div class="skill_logo"></div>
+						<div class="skill_level"></div>
+					</li>
+				</ul>
+
+			</section>
+			<section class="exppro">
+				<div>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div>
+					<button>Download CV</button>
+				</div>
+			</section>
+			<section class="personality">
 				<ul>
 					<li></li>
 					<li></li>
 					<li></li>
 				</ul>
-			</div>
-			<div>
+			</section>
+		</div>
+		<div class="contact" id="urlcontact">
+			<form>
+				<div class="form-row">
+				  <div class="form-group col-md-6">
+					<label for="inputEmail4">Email</label>
+					<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+				  </div>
+				  <div class="form-group col-md-6">
+					<label for="inputPassword4">Password</label>
+					<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="inputAddress">Address</label>
+				  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+				</div>
+				<div class="form-group">
+				  <label for="inputAddress2">Address 2</label>
+				  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+				</div>
+				<div class="form-row">
+				  <div class="form-group col-md-6">
+					<label for="inputCity">City</label>
+					<input type="text" class="form-control" id="inputCity">
+				  </div>
+				  <div class="form-group col-md-4">
+					<label for="inputState">State</label>
+					<select id="inputState" class="form-control">
+					  <option selected>Choose...</option>
+					  <option>...</option>
+					</select>
+				  </div>
+				  <div class="form-group col-md-2">
+					<label for="inputZip">Zip</label>
+					<input type="text" class="form-control" id="inputZip">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <div class="form-check">
+					<input class="form-check-input" type="checkbox" id="gridCheck">
+					<label class="form-check-label" for="gridCheck">
+					  Check me out
+					</label>
+				  </div>
+				</div>
+				<button type="submit" class="btn btn-primary">Sign in</button>
+			  </form>
+			
+
+
+
+
+
+
+
+
+
+
+			<h2>Contact</h2>
+			<section class="form">
+				<div>Name</div>
+				<div>Mail</div>
+				<div>Message</div>
+			</section>
+			<section class="externallinks">
+				<div>Github</div>
+				<div>Linkedin</div>
+				<div>Discord</div>
+			</section>
+			<section>
 				<button>Download CV</button>
-			</div>
-		</section>
-		<section class="personality">
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</section>
+			</section>
+		</div>
 	</div>
-	<div class="contact" id="urlcontact">
-		<section class="form">
-			<div>Name</div>
-			<div>Mail</div>
-			<div>Message</div>
-		</section>
-		<section class="externallinks">
-			<div>Github</div>
-			<div>Linkedin</div>
-			<div>Autre</div>
-		</section>
-		<section>
-			<button>Download CV</button>
-		</section>
-	</div>
-	
 </body>
 </html>

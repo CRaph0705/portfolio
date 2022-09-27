@@ -1,0 +1,8 @@
+.home {
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+    background-size: 100%; /* L'image prendra 100% de l'espace, quitte à la crop */
+    background-position: center; /* Centre la position de l'image */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+    background-image: url("assets/neuronCloud.jpeg");
+    
+}
