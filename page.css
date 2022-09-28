@@ -8,10 +8,27 @@ a {
 
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+
+
+/* ####################### FOOTER ###################################### */
+footer {
+    color: white;
+    justify-content: center;
+}
+.externallinks {
+    display: flex;
+    justify-content: center;
+}
+.externallinks div {
+    margin: 5%;
 }
