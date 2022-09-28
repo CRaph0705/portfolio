@@ -17,6 +17,24 @@ body {
     top: 0;
     width: 100%;
 }
+h1 {
+    text-align: center;
+    padding-top: 10%;
+}
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#homedescription {
+    margin-top: 20%;
+    background: rgba(128, 128, 128, 0.172);
+    font-size: medium;
+    text-align: justify;
+    width: ;
+}
+
+
 
 
 
@@ -24,6 +42,8 @@ body {
 footer {
     color: white;
     justify-content: center;
+    height: 5%;
+    width: 100%;
 }
 .externallinks {
     display: flex;
@@ -31,4 +51,14 @@ footer {
 }
 .externallinks div {
     margin: 5%;
+}
+
+.uil-linkedin:before {
+    font-size: 300%;
+}
+.uil-github:before {
+    font-size: 300%;
+}
+.uil-discord:before {
+    font-size: 300%;
 }
