@@ -30,18 +30,18 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link" href="#">About me</a>
+							<a class="nav-link" href="#urlaboutme">About me</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							Works
 							</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Project 1</a></li>
+								<li><a class="dropdown-item" href="#urlprojet1">Project 1</a></li>
 								<li><hr class="dropdown-divider"></li>
-								<li><a class="dropdown-item" href="#">Project 2</a></li>
+								<li><a class="dropdown-item" href="#urlprojet2">Project 2</a></li>
 								<li><hr class="dropdown-divider"></li>
-								<li><a class="dropdown-item" href="#">Project 3</a></li>
+								<li><a class="dropdown-item" href="#urlprojet3">Project 3</a></li>
 							</ul>
 						</li>
 						<li class="nav-item">
@@ -59,53 +59,48 @@
 	</header>
 	<main>
 		<div class="parallax">
-			<div class="works" id="urlworks">
+			<section class="works" id="urlworks" class="wholepage">
 				<h2>Works</h2>
-				<div class="carousel">
-					<div class="project">
-						<a href="#urlprojet1">Projet 1</a>
-					</div>
-					<div class="project">
-						<a href="#urlprojet2">Projet 2</a>
-					</div>
-					<div class="project">
-						<a href="#urlprojet3">Projet 3</a>
-					</div>
-				</div>
+
 				<div class="galerie">
-					<div class="project">
-						<a href="#urlprojet1">Projet 1</a>
+					<div class="project" id="urlprojet1">
+						<div>
+							<img src="https://via.placeholder.com/390/FF0000/FFFFFF?Text=Down.com C/O https://placeholder.com/" alt="blablabla placeholder num1">
+						</div>
+						<div>Projet 1</div>
 					</div>
-					<div class="project">
-						<a href="#urlprojet2">Projet 2</a>
+					<div class="project" id="urlprojet2">
+						<img src="https://via.placeholder.com/390/FF0000/FFFFFF?Text=Down.com C/O https://placeholder.com/" alt="blablabla placeholder num2">
+						<div>Projet 2</div>
 					</div>
-					<div class="project">
-						<a href="#urlprojet3">Projet 3</a>
+					<div class="project" id="urlprojet3">
+						<img src="https://via.placeholder.com/390/FF0000/FFFFFF?Text=Down.com C/O https://placeholder.com/" alt="blablabla placeholder num3">
+						<div>Projet 3</div>					
 					</div>
 				</div>
-			</div>
-			<div class="aboutme" id="urlaboutme">
+			</section>
+			<section class="aboutme" id="urlaboutme" class="wholepage">
 				<h2>About Me</h2>
 				<div><p>PHOTO</p></div>
 				<div class="skills">
 					<h3>Skills</h3>
 					<ul>
-						<li>
+						<li class="container">
 							<div class="skill_title"><p>Logiciel 1</p></div>
-							<div class="skill_logo"></div>
+							<div class="skill_logo"> Logo logiciel 1</div>
 							<div class="skill_level"></div>
 						</li>
-						<li>
+						<li class="container">
 							<div class="skill_title"><p>Logiciel 2</p></div>
-							<div class="skill_logo"></div>
+							<div class="skill_logo">Logo logiciel 2</div>
 							<div class="skill_level"></div>
 						</li>
-						<li>
+						<li class="container">
 							<div class="skill_title"><p>Langage 1</p></div>
 							<div class="skill_logo"></div>
 							<div class="skill_level">progress bar</div>
 						</li>
-						<li>
+						<li class="container">
 							<div class="skill_title"><p>Langage 2</p></div>
 							<div class="skill_logo"></div>
 							<div class="skill_level">progress bar</div>
@@ -142,24 +137,34 @@
 					<h3>Personality</h3>
 					<div class="column">
 						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
+							<li>
+								<p>
+									Music : Rock, Metal, drummer.
+								</p>
+							</li>
+							<li>
+								<p>
+									Gamer : videogames, boardgames, roleplay
+								</p>
+							</li>
+							<li>
+								<p>Sports : swimming, judo</p>
+							</li>
 						</ul>
 					</div>
 				</div>
-			</div>
+			</section>
 
 
 
 
 
-			<div class="contact" id="urlcontact">
+			<section class="contact" id="urlcontact">
 				<h2>Contact</h2>
-				<div class="dlcv">
-					<button >Download CV</button>
-				</div>
 				<form class="container">
+					<div class="dlcv">
+						<button class="btn btn-primary">Download CV</button>
+					</div>
 					<div class="form-row mb-2">
 					<div class="form-group">
 						<input type="email" class="form-control" placeholder="Email">
@@ -176,10 +181,11 @@
 					</div>
 
 					<button type="submit" class="btn btn-primary">Submit</button>
+
 				</form>
 				
 
-			</div>
+			</section>
 		</div>
 	</main>
 	<footer>

@@ -3,3 +3,8 @@
     height: 100vh;
     display: flex;
 }
+.skills {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}

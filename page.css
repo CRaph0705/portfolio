@@ -8,8 +8,6 @@ a {
 
 body {
     background-color: black;
-    display: flex;
-    flex-direction: column;
 }
 
 .navbar {
@@ -34,7 +32,9 @@ h1 {
     width: ;
 }
 
-
+.wholepage {
+    display: flex;
+}
 
 
 
