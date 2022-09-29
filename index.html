@@ -19,21 +19,22 @@
 <body>
 
 	<header class="home" id="urlhome">
-		<nav class="navbar navbar-expand-lg bg-light">
+<!-- ################## NAV ###################### -->
+		<nav class="navbar navbar-expand-lg navbarcolor">
 			<div class="container-fluid d-flex justify-content-between">
-				<div>
-					<a class="navbar-brand" href="#">LOGO STYLE</a>
+				<div class="button-position">
+					<a class="navbar-brand" href="#">"LOGO hyper classe"</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
-						</button>
+					</button>
 				</div>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link" href="#urlaboutme">About me</a>
+							<a class="nav-link text-center" href="#urlaboutme">About me</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							Works
 							</a>
 							<ul class="dropdown-menu">
@@ -44,8 +45,15 @@
 								<li><a class="dropdown-item" href="#urlprojet3">Project 3</a></li>
 							</ul>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
+						<li class="nav-item lastnavitem">
+							<a class="nav-link text-center" href="#urlcontact">Contact</a>
+						</li>
+						<li>
+							<div class="externallinks navextlinks">
+								<div class="icons navicons"><a href="#"><i class="uil uil-linkedin"></i></a></div>
+								<div class="icons navicons"><a href="#"><i class="uil uil-github"></i></a></div>
+								<div class="icons navicons"><a href="#"><i class="uil uil-discord"></i></a></div>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -59,26 +67,8 @@
 	</header>
 	<main>
 		<div class="parallax">
-			<section class="works" id="urlworks" class="wholepage">
-				<h2>Works</h2>
+<!-- #####################################          ABOUT ME           ######################################## -->
 
-				<div class="galerie">
-					<div class="project" id="urlprojet1">
-						<div>
-							<img src="https://via.placeholder.com/390/FF0000/FFFFFF?Text=Down.com C/O https://placeholder.com/" alt="blablabla placeholder num1">
-						</div>
-						<div>Projet 1</div>
-					</div>
-					<div class="project" id="urlprojet2">
-						<img src="https://via.placeholder.com/390/FF0000/FFFFFF?Text=Down.com C/O https://placeholder.com/" alt="blablabla placeholder num2">
-						<div>Projet 2</div>
-					</div>
-					<div class="project" id="urlprojet3">
-						<img src="https://via.placeholder.com/390/FF0000/FFFFFF?Text=Down.com C/O https://placeholder.com/" alt="blablabla placeholder num3">
-						<div>Projet 3</div>					
-					</div>
-				</div>
-			</section>
 			<section class="aboutme" id="urlaboutme" class="wholepage">
 				<h2>About Me</h2>
 				<div><p>PHOTO</p></div>
@@ -155,42 +145,99 @@
 				</div>
 			</section>
 
+<!-- ################## WORKS ###################### -->
+
+			<section class="works" id="urlworks" class="wholepage">
+				<h2>Works</h2>
+
+				<div class="galerie">
+					<div class="project" id="urlprojet1">
+						<div>
+							<img src="https://via.placeholder.com/390/FF0000/FFFFFF?Text=Down.com C/O https://placeholder.com/" alt="blablabla placeholder num1">
+						</div>
+						<div>
+							<p class="project-description">
+								Projet 1
+							</p>
+						</div>
+					</div>
+					<div class="project" id="urlprojet2">
+						<img src="https://via.placeholder.com/390/FF0000/FFFFFF?Text=Down.com C/O https://placeholder.com/" alt="blablabla placeholder num2">
+						<div>
+							<p class="project-description">
+								Projet 2
+							</p>
+						</div>
+					</div>
+					<div class="project" id="urlprojet3">
+						<img src="https://via.placeholder.com/390/FF0000/FFFFFF?Text=Down.com C/O https://placeholder.com/" alt="blablabla placeholder num3">
+						<div>
+							<p class="project-description">
+								Projet 3
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<!-- ################ WIP ##################### -->
+			<!-- <div class="container">
+				<div class="card">
+					<div class="front"></div>
+				  	<div class="back">
+						<h3>Projet 1</h3>
+						<p>description<p>
+				  	</div>
+				</div>
+			</div> -->
 
 
-
+<!-- ################## CONTACT ###################### -->
 
 			<section class="contact" id="urlcontact">
 				<h2>Contact</h2>
-				<form class="container">
-					<div class="dlcv">
-						<button class="btn btn-primary">Download CV</button>
+				<div class="contactbloc">
+					<div class="row">
+						<div class="col-md-6 col-sm-12 mb-5">
+							<div>
+								<h3>Got a problem to solve ?</h3>
+								<p class="catchphrase">
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. In doloribus modi maiores necessitatibus! Eligendi veritatis ipsam, temporibus laudantium enim est quibusdam molestias vero. Excepturi voluptas, illo nam provident voluptatum culpa.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-12 mb-2">
+							<div class="formbloc">
+								<form class="container">
+									<div class="dlcv">
+										<button class="btn btn-primary">Download CV</button>
+									</div>
+									<div class="form-row mb-2">
+									<div class="form-group">
+										<input type="email" class="form-control" placeholder="Email">
+									</div>
+									</div>
+									<div class="form-row mb-2">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Name">
+									</div>
+									</div>
+									<div class="form-floating form-group mb-2">
+										<textarea class="form-control textarea" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+										<label for="floatingTextarea2">Comments</label>
+									</div>
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</form>
+							</div>
+						</div>
 					</div>
-					<div class="form-row mb-2">
-					<div class="form-group">
-						<input type="email" class="form-control" placeholder="Email">
-					</div>
-					</div>
-					<div class="form-row mb-2">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Name">
-					</div>
-					</div>
-					<div class="form-floating form-group mb-2">
-						<textarea class="form-control textarea" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
-						<label for="floatingTextarea2">Comments</label>
-					</div>
-
-					<button type="submit" class="btn btn-primary">Submit</button>
-
-				</form>
-				
-
+				</div>
 			</section>
 		</div>
 	</main>
 	<footer>
 		<div></div>
-		<div class="externallinks">
+		<div class="externallinks footerextlinks">
 			<div class="icons"><a href="#"><i class="uil uil-linkedin"></i></a></div>
 			<div class="icons"><a href="#"><i class="uil uil-github"></i></a></div>
 			<div class="icons"><a href="#"><i class="uil uil-discord"></i></a></div>

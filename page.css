@@ -1,5 +1,16 @@
-h1, h2, h3, h4, p, a {
-    color: white;
+
+
+
+
+h1, h3, h4, p, a {
+    /* color: rgb(103, 56, 161); */
+    color: rgb(255, 255, 255);
+}
+h2 {
+    margin-left: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: rgb(140, 93, 178);
 }
 a {
     color: white;
@@ -15,6 +26,34 @@ body {
     top: 0;
     width: 100%;
 }
+
+.navbarcolor {
+    background-color: pink; 
+    /* MAMA C'EST BEAU ! */
+}
+
+.navextlinks {
+
+    padding: 0 10% 0 10%;
+}
+
+.navicons {
+    margin: 0 50% 0 50%;
+    font-size: 150%;
+}
+
+.lastnavitem {
+    margin-right: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .button-position{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }   
+}
+
 h1 {
     text-align: center;
     padding-top: 10%;
@@ -29,7 +68,9 @@ h1 {
     background: rgba(128, 128, 128, 0.172);
     font-size: medium;
     text-align: justify;
-    width: ;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .wholepage {
@@ -53,12 +94,12 @@ footer {
     margin: 5%;
 }
 
-.uil-linkedin:before {
+footer .uil-linkedin:before {
     font-size: 300%;
 }
-.uil-github:before {
+footer .uil-github:before {
     font-size: 300%;
 }
-.uil-discord:before {
+footer .uil-discord:before {
     font-size: 300%;
 }
