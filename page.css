@@ -21,10 +21,12 @@ body {
     background-color: black;
 }
 
+
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .navbarcolor {
