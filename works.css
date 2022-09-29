@@ -68,6 +68,52 @@
     margin-top: 10%;
 }
 
+#urlproject1 {
+    padding-top:100px;
+    position:relative;
+    top:-100px;
+    margin-bottom:-100px; 
+}
+
+#urlproject2 {
+    padding-top:100px;
+    position:relative;
+    top:-100px;
+    margin-bottom:-100px; 
+}
+
+#urlproject3 {
+    padding-top:100px;
+    position:relative;
+    top:-100px;
+    margin-bottom:-100px; 
+}
+
+@media screen and (min-width:480px) {
+    #urlproject1 {
+        padding-top:270px;
+        position:relative;
+        top:-270px;
+        margin-bottom:-270px;
+    }
+
+    #urlproject2 {
+        padding-top:270px;
+        position:relative;
+        top:-270px;
+        margin-bottom:-265px; 
+    }
+
+    #urlproject3 {
+        padding-top:270px;
+        position:relative;
+        top:-270px;
+        margin-bottom:-270px; 
+    }
+}
+
+
+
 @media screen and (max-width:480px) {
 
     .projectdiv {
